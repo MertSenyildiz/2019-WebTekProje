@@ -1,0 +1,33 @@
+2019-2020 Güz Dönemi Web Teknolojileri Proje Ödevi
+Mert Şenyıldız
+B181210036
+
+Projenin Amacı:
+Derste öğrenilen bilgiler (HTML, CSS, Javascript vb.) kullanılarak bir web sitesi geliştirilmesi
+
+Proje İçeriği:
+            	Hakkında Sayfası
+•	Ziyaretçinin karşılanacağı sayfa 
+•	Kişisel ilgi alanlarımın ve bilgilerimin görüntüleneceği bölüm
+Özgeçmiş Sayfası
+•	Eğitim bilgilerimi içerecek bölüm 
+•	Table ve divlerden oluşturulacak
+Şehrim Sayfası
+•	Bursa hakkında (Şehrin nüfusu, gezilecek yerler vb.)  bilgilerin olacağı bölüm
+•	En az 4 resmi barındıran bir slider içerecek
+Mirasımız Sayfası
+•	Bursa’da bulunan tarihi eserler ve sportif kuruluşların tanıtılacağı bölüm
+Login Sayfası
+•	Ziyaretçiden e-posta ve şifre istenecek bölüm
+•	PHP ile yeni bir sayfaya post edilip girilen verilerin doğruluğu kontrol edilecek
+İletişim Sayfası
+•	Tüm form elemanlarını içerecek bölüm
+•	Forma girilen veriler Javascript ile denetlenecek
+•	Gönderilen Form yeni bir sayfada görüntülenecek
+
+Proje Süreci:
+	Projeyi 4 adımda bitirmeyi planlıyorum
+•	Web sitesini oluşturan 5 sayfanın html ve css ile iskeletinin tamamlanması
+•	Sayfaların responsive hale getirilmesi
+•	Javascript ve PHP dosyalarının oluşturulup sayfalara entegre edilmesi
+•	Eksiklerin gözden geçirilip tamamlanması 
