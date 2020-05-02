@@ -6,4 +6,6 @@
 ## Güncellemeler
   20-04-2020 Taslaklar yüklendi
   <br>
-  01.05-2020 Login Sayfası Oluşturuldu
+  01-05-2020 Login Sayfası Oluşturuldu
+  <br>
+  02-05-2020 İletişim Sayfası Oluşturuldu
