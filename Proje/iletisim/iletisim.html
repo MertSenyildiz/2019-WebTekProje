@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../nav_css.css">
+        <link rel="stylesheet" href="iletisim_css.css">
+        <title>İletişim</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Hakkımda</a></li>
+                <li><a href="../sehrim/sehrim.html">Şehrim</a></li>
+                <li><a href="../egitim bilgilerim/egitim bilgilerim.html">Eğitim Bilgilerim</a></li>
+                <li><a href="">İletişim</a></li>
+                <li><a href="../login/login.html">Giriş Yap</a></li>
+            </ul>
+        </nav>
+        <section>
+
+                <form action="">
+                    <h3>İLETİŞİM FORMU</h3>
+                    <div class="container">
+                        <input class="input-class" type="text" placeholder="Ad">
+                    </div>
+                    <div class="container">
+                        <input class="input-class" type="text" placeholder="Soyad">
+                    </div>
+                    <div class="container">
+                        <input class="input-class" type="text" placeholder="E-Posta">
+                    </div>
+                    <div class="container" >
+                        <h4>Site Memnuniyetiniz</h4>
+                        <div class="radio-cont">
+                        <input type="radio" id="d0" name="derece" value="d0">
+                        <label for="d0">Berbat</label><br>
+                        <input type="radio" id="d1" name="derece" value="d1">
+                        <label for="d1">Kötü</label><br>
+                        <input type="radio" id="d2" name="derece" value="d2">
+                        <label for="d2">Orta</label>
+                        <input type="radio" id="d3" name="derece" value="d3">
+                        <label for="d3">Iyi</label><br>
+                        <input type="radio" id="d4" name="derece" value="d4">
+                        <label for="d4">Güzel</label>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h4>Yaşadığınız Bölgeyi Seçiniz</h4>
+                        <div>
+                            <select id="regions">
+                                <option value="Marmara">Marmara</option>
+                                <option value="Ic Anadolu">İç Anadolu</option>
+                                <option value="Akdeniz">Akdeniz</option>
+                                <option value="Ege">Ege</option>
+                                <option value="Güneydogu Anadolu">Güneydoğu Anadolu</option>
+                                <option value="Karadeniz">Karadeniz</option>
+                                <option value="Dogu Anadolu">Doğu Anadolu</option>
+                                </select>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <textarea class="input-class" name="istek" id="istek" maxlength="255" placeholder="Öneri ve Şikayetleriniz..."></textarea>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" name="gonderilsin">
+                        <label for="gonderilsin">Yeniliklerden haberdar olmak isterim</label>
+                    </div>
+                    <div>
+                        <input  class="frm-btn" type="button" value="Temizle">
+                        <input class="frm-btn" type="submit" >
+                    </div>
+                </form>
+           
+        </section>
+    </body>
+</html>
