@@ -9,3 +9,5 @@
   01-05-2020 Login Sayfası Oluşturuldu
   <br>
   02-05-2020 İletişim Sayfası Oluşturuldu
+  <br>
+  05-05-2020 Bootstrap entegre edildi
