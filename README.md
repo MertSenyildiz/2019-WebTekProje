@@ -11,3 +11,5 @@
   02-05-2020 İletişim Sayfası Oluşturuldu
   <br>
   05-05-2020 Bootstrap entegre edildi
+  <br>
+  07-05-2020 Tüm sayfaların içerikleri hazır bir hale getirilip responsiveleştirildi.
