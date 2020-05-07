@@ -13,7 +13,7 @@ section
 }
 form
 {
-    margin: auto;
+    margin: auto auto 25% auto;
     width:100%;
     position: relative;
     border:1px solid gray;
@@ -92,4 +92,36 @@ h3
 .giris-button:active 
 {
     box-shadow: 0 0px 0px ;
+}
+@media screen and (max-width: 1050px) 
+{
+section
+{
+  margin:auto auto;
+  width: 100%;
+  font-family: Assasins;
+}
+form
+{
+    margin:15% auto 35% auto;
+    width:80%;
+}
+.mail-div
+{
+    width: 75%;
+    margin:10% auto;
+}
+.pass-div
+{
+    width: 75%;
+    margin:10% auto;
+}
+}
+@media screen and (max-width: 768px) 
+{
+    form
+    {
+        margin:15% auto 50% auto;
+        width:80%;
+    } 
 }

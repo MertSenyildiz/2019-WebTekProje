@@ -15,7 +15,8 @@ section div
 }
 table
 {
-    color:#f0944b ;
+    font-weight: bold;
+    color:rgb(241, 204, 40);
     width:100%;
     height:100%;
     text-align: center;
@@ -28,6 +29,6 @@ td
 }
 tr,td,table
 {
-    border:solid 2px aqua;
+    border:solid 2px rgb(9, 170, 245);
     border-collapse:collapse;
 }
