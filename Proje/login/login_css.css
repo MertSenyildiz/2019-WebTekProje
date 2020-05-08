@@ -2,14 +2,11 @@
 {
     font-family:Anton;
     src:url("../fonts/Anton.ttf");
-    font-family: Assasins;
-    src:url("../fonts/assasins.ttf");
 }
 section
 {
   margin:15% 35% 15% 35%;
   width: 30%;
-  font-family: Assasins;
 }
 form
 {
@@ -99,7 +96,6 @@ section
 {
   margin:auto auto;
   width: 100%;
-  font-family: Assasins;
 }
 form
 {
