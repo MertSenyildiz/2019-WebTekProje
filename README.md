@@ -13,3 +13,5 @@
   05-05-2020 Bootstrap entegre edildi
   <br>
   07-05-2020 Tüm sayfaların içerikleri hazır bir hale getirilip responsiveleştirildi.
+  <br>
+  08-05-2020 Login ve İletişim sayfalarına php ve js entegre edilip tamamen fonksiyonel hale getirildi.
