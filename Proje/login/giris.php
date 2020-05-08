@@ -1,3 +1,17 @@
+<?php
+    $var = $_POST['mail-inpt'];
+    $pass = $_POST['pass-inpt'];
+    $ad = explode("@",$var);
+    if($var != 'b181210036@sakarya.edu.tr')
+    {
+        header("Location:login.html");
+    }
+    else
+    {
+        if($pass == "123456")
+        {
+            ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,13 +19,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="../nav.css">
-        <link rel="stylesheet" href="login_css.css">
         <link rel="stylesheet" href="../footer.css">
-        <title>Login</title>
+        <title>Başarılı Giriş</title>
     </head>
     <body>
         <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand" href="login.html"><b>GİRİŞ YAP</b></a>
+            <a class="navbar-brand" href="#"><b>Başarılı Giriş</b></a>
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fa fa-bars"></span>
               </button>
@@ -33,34 +46,20 @@
                 </ul>
             </div>
               </nav>
-        <section>
-            <form method="POST" action="giris.php" onsubmit=" return kontrol()">
-                <h3><b>GIRIS YAP</b></h3>
-                <div class="mail-div">
-                    <input id="mail-inpt" class="mail-input" type="text" name="mail-inpt" placeholder="E-Posta" onblur="mailKontrol()" >
-                    <p id="mail-invalid" style="display: none;color:red;">Geçerli bir e-posta adresi giriniz</p>
-                </div>     
-                <div class="pass-div">
-                    <input id="pass-inpt" class="pass-input" type="password" name="pass-inpt" placeholder="Şifre" onblur="passKontrol()">
-                    <p id="pass-invalid" style="display: none;color:red;">Bu alan boş geçilemez</p>
-                </div>
-                <input id="giris-btn" class="giris-button" type="submit" value="GIRIS YAP">
-            </form>
-        </section>
-
-        <footer class="row">
-          <div id="copy" class="col-md-6 " >
-            © 2020 Mert Şenyıldız
-          </div>
-          <div id="icons" class="col-md-6" >
-            <a  href="https://github.com/MertSenyildiz"><span class="fab fa-github fa-2x"></span></a>
-            <a  href="https://www.instagram.com/senyldzmert"><span class="fab fa-instagram fa-2x"></span></a>
-            <a  href="https://steamcommunity.com/id/gamerillusive"><span class="fab fa-steam fa-2x"></span></a>
-          </div>
-      </footer>
+              <header style="text-align:center;font-weight:bold;"><?php echo "Hoşgeldiniz  $ad[0]"; ?></header>
         <script src="../bootstrap/js/jquery-3.4.1.slim.min.js"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script> 
         <script src="../bootstrap/js/fontawesome.js"></script> 
-        <script src="kontrol.js"></script> 
     </body>
 </html>
+
+
+            <?php
+        }
+        else
+        {
+            header("Location:login.html");
+        }
+    }
+?>
+

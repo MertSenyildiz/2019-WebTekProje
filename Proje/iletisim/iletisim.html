@@ -35,36 +35,40 @@
               </nav>
         <section>
 
-                <form action="">
+                <form action="iletisim.php" method="POST" onsubmit="return sonKontrol()">
                     <h3>İLETİŞİM FORMU</h3>
                     <div class="container">
-                        <input class="input-class" type="text" placeholder="Ad">
+                        <div id="isim-invalid" class="gonder-invalid" style="display: none;color:red;text-align: start;">*</div>
+                        <input id="isim" name="isim" class="input-class" type="text" placeholder="Ad" onblur="isimKontrol()" >
                     </div>
                     <div class="container">
-                        <input class="input-class" type="text" placeholder="Soyad">
+                        <div id="soyad-invalid" class="gonder-invalid" style="display: none;color:red;text-align: start;">*</div>
+                        <input id="soyad" name="soyad" class="input-class" type="text" placeholder="Soyad" onblur="soyadKontrol()">
                     </div>
                     <div class="container">
-                        <input class="input-class" type="text" placeholder="E-Posta">
+                        <div id="mail-invalid" class="gonder-invalid" style="display: none;color:red;text-align: start;">*</div>
+                        <input id="mail" name="mail" class="input-class" type="text" placeholder="E-Posta" onblur="mailKontrol()">
                     </div>
                     <div class="container" >
+                        <div class="gonder-invalid" style="display: none;color:red;text-align: start;">*</div>
                         <h4>Site Memnuniyetiniz</h4>
                         <div class="radio-cont">
-                        <input type="radio" id="d0" name="derece" value="d0">
+                        <input type="radio" id="d0" name="derece" value="Berbat">
                         <label for="d0">Berbat</label><br>
-                        <input type="radio" id="d1" name="derece" value="d1">
+                        <input type="radio" id="d1" name="derece" value="Kötü">
                         <label for="d1">Kötü</label><br>
-                        <input type="radio" id="d2" name="derece" value="d2">
+                        <input type="radio" id="d2" name="derece" value="Orta">
                         <label for="d2">Orta</label>
-                        <input type="radio" id="d3" name="derece" value="d3">
+                        <input type="radio" id="d3" name="derece" value="Iyi">
                         <label for="d3">Iyi</label><br>
-                        <input type="radio" id="d4" name="derece" value="d4">
+                        <input type="radio" id="d4" name="derece" value="Güzel">
                         <label for="d4">Güzel</label>
                         </div>
                     </div>
                     <div class="container">
                         <h4>Yaşadığınız Bölgeyi Seçiniz</h4>
                         <div>
-                            <select id="regions">
+                            <select name="regions" id="regions">
                                 <option value="Marmara">Marmara</option>
                                 <option value="Ic Anadolu">İç Anadolu</option>
                                 <option value="Akdeniz">Akdeniz</option>
@@ -79,11 +83,12 @@
                         <textarea class="input-class" name="istek" id="istek" maxlength="255" placeholder="Öneri ve Şikayetleriniz..."></textarea>
                     </div>
                     <div class="check">
-                        <input type="checkbox" name="gonderilsin">
+                        <input type="checkbox" name="check" id="check"> 
                         <label for="gonderilsin">Yeniliklerden haberdar olmak isterim</label>
                     </div>
+                    <div class="gonder-invalid" style="display: none;color:red;">* ile işaretlenen bölgeler boş geçilemez</div>
                     <div>
-                        <input  class="frm-btn" type="button" value="Temizle">
+                        <input  class="frm-btn" type="button" value="Temizle" onclick="temizle()">
                         <input class="frm-btn" type="submit" >
                     </div>
                 </form>
@@ -102,5 +107,6 @@
         <script src="../bootstrap/js/jquery-3.4.1.slim.min.js"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script> 
         <script src="../bootstrap/js/fontawesome.js"></script> 
+        <script src="kontrol.js"></script> 
     </body>
 </html>
