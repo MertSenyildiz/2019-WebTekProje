@@ -12,4 +12,18 @@ Derste öğrenilen bilgiler (HTML, CSS, Javascript vb.) kullanılarak kendimi ve
 * __Eğitim Bilgilerim__ : *Eğitim bilgilerimi içeren sayfa*
 * __İletişim__ : *Ziyaretçilerin site ile ilgili görüş ve isteklerini bildirebilecekleri sayfa*
 * __Giriş Yap__ : *Siteye kullanıcı girişi yapmayı sağlayan sayfa*
- 
+
+### Hakkımda Sayfası
+![Hakkımda](https://user-images.githubusercontent.com/63149243/151677079-ee196538-0696-453a-a7f5-28c3ad21afd1.png)
+### Şehrim Sayfası
+![Şehrim](https://user-images.githubusercontent.com/63149243/151677237-6cd9d9c7-f8da-4b2f-8aa3-41925319afee.png)
+### Mirasımız Sayfası
+![Mirasımız](https://user-images.githubusercontent.com/63149243/151677284-3d19ecfa-9c28-418a-9bf4-62be3598b4aa.png)
+### Eğitim Bilgilerim Sayfası
+![Eğitim Bilgileri](https://user-images.githubusercontent.com/63149243/151677327-4c58f1e2-81ab-470c-874a-7b38aab2dd89.png)
+### İletişim Sayfası
+![İletişim](https://user-images.githubusercontent.com/63149243/151677360-fe54458a-e311-4100-ad0a-9300b4c5d760.png)
+### Giriş Yap Sayfası
+![Giriş Yap](https://user-images.githubusercontent.com/63149243/151677402-6d3a6858-d6b5-4dc6-95f6-528a21233428.png)
+
+
